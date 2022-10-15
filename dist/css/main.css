@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/star-circle-bg.jpg") center top;
   background-size: cover;
 }
 .home__name {
@@ -19,7 +19,7 @@
   margin-bottom: 1rem;
 }
 .home__name--last {
-  color: #ff652f;
+  color: #0077b7;
   font-weight: 700;
 }
 
@@ -107,7 +107,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #0077b7;
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -118,7 +118,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #0077b7;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -143,7 +143,7 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.9)), url("../img/contact-bg.png") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #0077b7;
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
@@ -195,7 +195,7 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.1)), url("../img/star-circle-bg.jpg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -215,7 +215,7 @@
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #0077b7;
   overflow: hidden;
   cursor: pointer;
 }
@@ -229,7 +229,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #0077b7;
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
@@ -253,11 +253,11 @@
 }
 .projects__btn {
   opacity: 0;
-  color: #fff;
+  color: #000;
   transition: all 0.2s ease-in-out;
 }
 .projects__btn:hover {
-  color: #000;
+  color: #fff;
 }
 .projects .social-icons {
   display: flex;
@@ -274,7 +274,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.8)), url("../img/contact-bg.png") center top;
   background-size: cover;
 }
 .contact h2 {
@@ -360,7 +360,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #0077b7;
 }
 
 header {
@@ -384,7 +384,7 @@ main .social-icons a {
   transition: all 0.2s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #0077b7;
 }
 
 footer {
